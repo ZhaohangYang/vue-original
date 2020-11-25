@@ -32,10 +32,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 npm install vue-quill-editor --save
 
+```
 import VueQuillEditor from "@/components/edit/VueQuillEditor";
+
 export default {
-name: "App",
-components: {
-VueQuillEditor,
-},
+    name: "App",
+    components: {
+        VueQuillEditor,
+    },
 };
+
+```
